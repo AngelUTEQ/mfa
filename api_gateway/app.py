@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS  
 import requests
 
 app = Flask(__name__)
+CORS(app) 
 
 AUTH_SERVICE_URL = "http://127.0.0.1:5001"
 USER_SERVICE_URL = "http://127.0.0.1:5002"

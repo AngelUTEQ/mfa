@@ -6,23 +6,16 @@ Press CTRL+C to quit
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 755-580-228
-127.0.0.1 - - [27/Jun/2025 19:12:23] "POST /auth/login HTTP/1.1" 401 -
-127.0.0.1 - - [27/Jun/2025 19:13:03] "POST /auth/login HTTP/1.1" 401 -
-127.0.0.1 - - [27/Jun/2025 19:13:09] "POST /auth/register HTTP/1.1" 201 -
-127.0.0.1 - - [27/Jun/2025 19:13:18] "POST /auth/login HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:13:40] "GET /tasks HTTP/1.1" 403 -
-127.0.0.1 - - [27/Jun/2025 19:13:53] "GET /tasks HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:14:11] "POST /tasks HTTP/1.1" 403 -
-127.0.0.1 - - [27/Jun/2025 19:14:20] "POST /tasks HTTP/1.1" 201 -
-127.0.0.1 - - [27/Jun/2025 19:14:55] "PUT /tasks/1 HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:25:40] "POST /auth/login HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:27:23] "POST /auth/register HTTP/1.1" 409 -
-127.0.0.1 - - [27/Jun/2025 19:27:33] "POST /auth/register HTTP/1.1" 201 -
-127.0.0.1 - - [27/Jun/2025 19:27:42] "POST /auth/login HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:27:48] "POST /auth/login HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:28:06] "POST /tasks HTTP/1.1" 201 -
-127.0.0.1 - - [27/Jun/2025 19:28:23] "PUT /tasks/1 HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:28:45] "DELETE /tasks/1 HTTP/1.1" 403 -
-127.0.0.1 - - [27/Jun/2025 19:28:52] "DELETE /tasks/1 HTTP/1.1" 403 -
-127.0.0.1 - - [27/Jun/2025 19:29:00] "POST /auth/login HTTP/1.1" 200 -
-127.0.0.1 - - [27/Jun/2025 19:29:11] "DELETE /tasks/1 HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:00] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:00] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:17] "OPTIONS /auth/register HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:17] "POST /auth/register HTTP/1.1" 201 -
+127.0.0.1 - - [05/Jul/2025 17:44:28] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:28] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:32] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:37] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:37] "POST /auth/login HTTP/1.1" 401 -
+127.0.0.1 - - [05/Jul/2025 17:44:40] "POST /auth/login HTTP/1.1" 401 -
+127.0.0.1 - - [05/Jul/2025 17:44:42] "OPTIONS /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:42] "POST /auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2025 17:44:43] "POST /auth/login HTTP/1.1" 401 -
